@@ -1,0 +1,52 @@
+.profile-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  border: 3px solid #61dafb;
+  background: #f0f0f0;
+}
+
+.profile-name {
+  font-size: 1.1rem;
+  margin: 8px 0 4px;
+  color: #333;
+}
+
+.profile-role {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  background: #f9fafb;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
